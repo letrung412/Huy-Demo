@@ -1,0 +1,139 @@
+@import "../../../../global/variables/colors";
+@import "../../../../global/variables/mixins";
+.contact {
+  @include Relative;
+  &Title {
+    position: relative;
+    img {
+      height: 180px;
+      @include desktop2{
+        height:300px;
+      }
+    }
+    &Content {
+      position: absolute;
+      top: 60px;
+      left: 560px;
+      @include desktop2{
+        top: 100px;
+        left: 860px;
+      }
+      color: white;
+      text-align: center;
+      div {
+        display: flex;
+        h6 {
+          color: $colorgray-200;
+        }
+        span {
+          padding-top: 6px;
+        }
+      }
+    }
+  }
+  &Infor {
+    margin: 50px 75px;
+    display: flex;
+    justify-content: space-between;
+    h5 {
+      font-weight: bold;
+      color: $colorbutton;
+    }
+    &One {
+      p {
+        font-size: 17px;
+        strong {
+          font-size: 22px;
+          padding-right: 12px;
+        }
+      }
+
+      .hover {
+        border: 2px solid black;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 15px;
+        a {
+          color: $colorgray-800;
+        }
+      }
+      .facebook {
+        &:hover {
+          background-color: $colorfacebook;
+          border-color: $colorfacebook;
+          a {
+            color: $colorgray-100;
+          }
+        }
+      }
+      .instagram {
+        &:hover {
+          background-color: $colorinstagram;
+          border-color: $colorinstagram;
+          a {
+            color: $colorgray-100;
+          }
+        }
+      }
+      .twitter {
+        &:hover {
+          background-color: $colortwitter;
+          border-color: $colortwitter;
+          a {
+            color: $colorgray-100;
+          }
+        }
+      }
+      .pinterest {
+        &:hover {
+          background-color: $colorpinterest;
+          border-color: $colorpinterest;
+          a {
+            color: $colorgray-100;
+          }
+        }
+      }
+      .feed {
+        &:hover {
+          background-color: $colortooltip;
+          border-color: $colortooltip;
+          a {
+            color: $colorgray-100;
+          }
+        }
+      }
+    }
+    &Two {
+      width: 615px;
+      justify-content: space-between;
+      input {
+        outline: none;
+        width: 280px;
+        border: 1px solid $colorgray-500;
+        margin-left: 25px;
+        padding: 4px 10px;
+        margin-bottom: 10px;
+        color: $colorgray-800;
+      }
+      .Input {
+        padding-top: 10px;
+        padding-bottom: 60px;
+        width: 585px;
+      }
+      .select{
+        width: 280px;
+        margin-left: 28px;
+      }
+      button {
+        margin-left: 200px;
+        padding: 5px 100px;
+        border: none;
+        background-color: $colorbutton;
+        color: $colorgray-300;
+        font-weight: bold;
+      }
+    }
+  }
+}

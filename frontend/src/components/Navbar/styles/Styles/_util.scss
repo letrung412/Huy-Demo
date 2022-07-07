@@ -1,0 +1,123 @@
+@import "./variables";
+.end {
+    text-align: right;
+}
+.flex{
+  display: flex;
+}
+.font-print{
+  font-family: "Times New Roman", Times, serif;
+}
+.middle{
+  text-align: center;
+}
+.pointer{
+    cursor: pointer;
+}
+.position-fixed{
+  position: fixed;
+}
+.align-center{
+  align-items: center;
+}
+.text-left{
+  text-align: left;
+}
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.display{
+  display: block;
+}
+.display-flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.none-display{
+  display: none;
+}
+.vertical-line {
+  border-right: $border;
+}
+.horizontal-line {
+  border-bottom: $border;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.upper{
+  text-transform: uppercase;
+}
+.text-bold{
+  font-weight: bolder;
+}
+.nounderline{
+  text-decoration: none;
+  color: white;
+}
+.wdth-50PerCent{
+  width: 50%!important;
+}
+$spacesizes: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51,52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68,69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85,86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100);
+@each $space in $spacesizes {
+  .fontsz-#{$space}{
+    font-size: #{$space}px!important;
+  }
+}
+$spaceamounts: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51,52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68,69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85,86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 110,120, 150,470);
+$sides: (top, bottom, left, right); 
+.marginSelect{
+  margin-left: -600px;
+}
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m-#{$space}{
+      margin: #{$space}px !important;
+    }
+    .mto-#{$space}{
+      margin: #{$space}px auto !important;
+    }
+    .m#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+    .mlr-#{$space}{
+      margin: 0px #{$space}px !important;
+    }
+    .mtb-#{$space}{
+      margin: #{$space}px 0px !important;
+    }
+    .p-#{$space}{
+      padding: #{$space}px !important;
+    }
+    .p#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+    .plr-#{$space}{
+      padding: 0px #{$space}px !important;
+    }
+    .ptb-#{$space}{
+      padding: #{$space}px 0px !important;
+    }
+  }
+}
+
+$spacedflex: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51,52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68,69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85,86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100);
+$dimentions: (width, height);
+@each $space in $spacedflex{
+  @each $dimention in $dimentions{
+    .#{str-slice($dimention, 0, 1)}-#{$space}{
+      height: #{$space * 5}px !important;
+    }
+    .d#{str-slice($dimention, 0, 1)}-#{$space}{
+      height: #{$space}#{'%'} !important;
+    }
+    .df-#{str-slice($dimention, 0, 1)}-#{$space}{
+      height: #{$space}vh !important;
+    }
+    .min-#{str-slice($dimention, 0, 1)}-#{$space}{
+      min-height: #{$space * 5}px !important;
+    }
+  } 
+}

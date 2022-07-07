@@ -1,0 +1,77 @@
+//////////BUTTON/////////
+.btn {
+    min-width: 40px;
+    padding: .175rem .75rem;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: $c-secondary;
+    color: $c-text-btn;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    letter-spacing: 0.02857em;
+    &:hover,
+    &:focus {
+      &:not([disabled]){
+        background-color: $c-secondary-hover;
+        transition: $transition-btn-hover;
+        box-shadow: $box-shadow;
+      }  
+    }
+    &:disabled{
+      background-color: #b2bec3;
+    }
+  }
+  
+  .btn-secondary {
+    background-color: $c-secondary;
+    &:hover,
+    &:focus {
+      &:not([disabled]){
+        background-color: $c-secondary-hover;
+        transition: $transition-btn-hover;
+        box-shadow: $box-shadow;
+      } 
+    }
+    &:disabled{
+      background-color: #b2bec3;
+    }
+  }
+
+  .btn-danger{
+    background-color: $c-danger;
+    &:hover,
+    &:focus{
+      &:not([disabled]){
+        box-shadow: $box-shadow;
+        background-color: $c-danger-hover;
+        transition: $transition-btn-hover;
+      }
+    }
+    &:not(:disabled):not(.disabled).active:focus,
+    &:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-danger.dropdown-toggle:focus {
+      box-shadow: none;
+    }
+  }
+
+
+  .btn-sm{
+    font-size: 60%;
+  }
+  .btn-mui {
+    background-color: rgb(0, 30, 60);
+    &:hover,
+    &:focus {
+      &:not([disabled]){
+        background-color: #0072E5;
+        transition: $transition-btn-hover;
+        box-shadow: $box-shadow;
+        color:white;
+      } 
+    }
+    &:disabled{
+      background-color: #b2bec3;
+    }
+  }
+  
