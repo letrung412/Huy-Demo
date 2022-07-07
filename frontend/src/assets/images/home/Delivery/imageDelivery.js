@@ -1,0 +1,13 @@
+import delivery1 from "./logo-ghn.jpg";
+import delivery2 from "./logo-ghtk.jpg";
+import delivery3 from "./logo-ninja-van.jpg";
+import delivery4 from "./logo-shipchung.jpg";
+import delivery5 from "./logo-viettle-post.jpg";
+import delivery6 from "./logo-vn-post.jpg";
+import payment1 from "./payment1.png";
+import payment2 from "./payment2.png";
+import payment3 from "./payment3.png";
+import payment4 from "./payment4.png";
+import payment5 from "./payment5.png";
+export { delivery6, delivery5, delivery4, delivery3, delivery2, delivery1 };
+export { payment1, payment2, payment3, payment4, payment5 };

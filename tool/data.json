@@ -1,0 +1,1106 @@
+[
+  { "_id": 1, "school": "Đại học Công nghiệp Việt-Hung" },
+  { "_id": 2, "school": "Trường Đại học Bách khoa Hà Nội" },
+  { "_id": 3, "school": "Trường Đại học Công đoàn" },
+  { "_id": 4, "school": "Trường Đại học Công nghệ Giao thông Vận tải" },
+  { "_id": 5, "school": "Trường Đại học Công nghiệp Dệt may Hà Nội" },
+  { "_id": 6, "school": "Trường Đại học Công nghiệp Hà Nội" },
+  { "_id": 7, "school": "Trường Đại học Công nghiệp Quảng Ninh" },
+  { "_id": 8, "school": "Trường Đại học Công nghiệp Thành phố Hồ Chí Minh" },
+  {
+    "_id": 9,
+    "school": "Trường Đại học Công nghiệp Thực phẩm Thành phố Hồ Chí Minh"
+  },
+  { "_id": 10, "school": "Trường Đại học Công nghiệp Việt Trì" },
+  { "_id": 11, "school": "Trường Đại học Dầu khí Việt Nam" },
+  { "_id": 12, "school": "Trường Đại học Đà Lạt" },
+  { "_id": 13, "school": "Trường Đại học Đồng Tháp" },
+  { "_id": 14, "school": "Trường Đại học Điện lực" },
+  { "_id": 15, "school": "Trường Đại học Điều dưỡng Nam Định" },
+  { "_id": 16, "school": "Trường Đại học Dược Hà Nội" },
+  {
+    "_id": 17,
+    "school": "Trường Đại học Giao thông vận tải Thành phố Hồ Chí Minh"
+  },
+  { "_id": 18, "school": "Trường Đại học Giao thông Vận tải" },
+  { "_id": 19, "school": "Trường Đại học Hà Nội" },
+  { "_id": 20, "school": "Trường Đại học Hàng hải Việt Nam" },
+  { "_id": 21, "school": "Trường Đại học Khoa học và Công nghệ Hà Nội" },
+  { "_id": 22, "school": "Trường Đại học Kiên Giang" },
+  { "_id": 23, "school": "Trường Đại học Kiểm sát Hà Nội" },
+  { "_id": 24, "school": "Trường Đại học Kiến trúc Hà Nội" },
+  { "_id": 25, "school": "Trường Đại học Kiến trúc Thành phố Hồ Chí Minh" },
+  { "_id": 26, "school": "Trường Đại học Kinh tế - Kỹ thuật Công nghiệp" },
+  { "_id": 27, "school": "Trường Đại học Kinh tế Quốc dân" },
+  { "_id": 28, "school": "Trường Đại học Kinh tế Thành phố Hồ Chí Minh" },
+  { "_id": 29, "school": "Trường Đại học Kỹ thuật Y Dược Đà Nẵng" },
+  { "_id": 30, "school": "Trường Đại học Kỹ thuật Y tế Hải Dương" },
+  { "_id": 31, "school": "Trường Đại học Lâm nghiệp Việt Nam" },
+  { "_id": 32, "school": "Trường Đại học Lao động - Xã hội" },
+  { "_id": 33, "school": "Trường Đại học Luật Hà Nội" },
+  { "_id": 34, "school": "Trường Đại học Luật Thành phố Hồ Chí Minh" },
+  { "_id": 35, "school": "Trường Đại học Mỏ - Địa chất" },
+  { "_id": 36, "school": "Trường Đại học Mở Hà Nội" },
+  { "_id": 37, "school": "Trường Đại học Mở Thành phố Hồ Chí Minh" },
+  { "_id": 38, "school": "Trường Đại học Mỹ thuật Công nghiệp" },
+  { "_id": 39, "school": "Trường Đại học Mỹ thuật Thành phố Hồ Chí Minh" },
+  { "_id": 40, "school": "Trường Đại học Mỹ thuật Việt Nam" },
+  { "_id": 41, "school": "Trường Đại học Ngân hàng Thành phố Hồ Chí Minh" },
+  { "_id": 42, "school": "Trường Đại học Ngoại thương" },
+  { "_id": 43, "school": "Trường Đại học Nội vụ Hà Nội" },
+  { "_id": 44, "school": "Trường Đại học Nông Lâm Thành phố Hồ Chí Minh" },
+  { "_id": 45, "school": "Trường Đại học Quy Nhơn" },
+  { "_id": 46, "school": "Trường Đại học Phạm Văn Đồng" },
+  {
+    "_id": 47,
+    "school": "Trường Đại học Sân khấu - Điện ảnh Thành phố Hồ Chí Minh"
+  },
+  { "_id": 48, "school": "Trường Đại học Sân khấu và Điện ảnh Hà Nội" },
+  { "_id": 49, "school": "Trường Đại học Sao Đỏ" },
+  { "_id": 50, "school": "Trường Đại học Sư phạm Hà Nội 2" },
+  { "_id": 51, "school": "Trường Đại học Sư phạm Hà Nội" },
+  { "_id": 52, "school": "Trường Đại học Sư phạm Kỹ thuật Hưng Yên" },
+  { "_id": 53, "school": "Trường Đại học Sư phạm Kỹ thuật Nam Định" },
+  {
+    "_id": 54,
+    "school": "Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh"
+  },
+  { "_id": 55, "school": "Trường Đại học Sư phạm kỹ thuật Vĩnh Long" },
+  { "_id": 56, "school": "Trường Đại học Sư phạm Kỹ thuật Vinh" },
+  { "_id": 57, "school": "Trường Đại học Sư phạm Nghệ thuật Trung ương" },
+  { "_id": 58, "school": "Trường Đại học Sư phạm Thành phố Hồ Chí Minh" },
+  { "_id": 59, "school": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội" },
+  {
+    "_id": 60,
+    "school": "Trường Đại học Sư phạm Thể dục Thể thao Thành phố Hồ Chí Minh"
+  },
+  { "_id": 61, "school": "Trường Đại học Tài chính - Kế toán (Quảng Ngãi)" },
+  { "_id": 62, "school": "Trường Đại học Tài chính - Marketing" },
+  { "_id": 63, "school": "Trường Đại học Tài chính - Quản trị kinh doanh" },
+  { "_id": 64, "school": "Trường Đại học Tài nguyên và Môi trường Hà Nội" },
+  {
+    "_id": 65,
+    "school": "Trường Đại học Tài nguyên và Môi trường Thành phố Hồ Chí Minh"
+  },
+  { "_id": 66, "school": "Trường Đại học Thể dục Thể thao Bắc Ninh" },
+  { "_id": 67, "school": "Trường Đại học Thể dục Thể thao Đà Nẵng" },
+  {
+    "_id": 68,
+    "school": "Trường Đại học Thể dục thể thao Thành phố Hồ Chí Minh"
+  },
+  { "_id": 69, "school": "Trường Đại học Thương mại (Việt Nam)" },
+  { "_id": 70, "school": "Trường Đại học Thủy lợi" },
+  { "_id": 71, "school": "Trường Đại học Tiền Giang" },
+  { "_id": 72, "school": "Trường Đại học Tôn Đức Thắng" },
+  { "_id": 73, "school": "Trường Đại học Văn hóa Hà Nội" },
+  { "_id": 74, "school": "Trường Đại học Văn hóa Thành phố Hồ Chí Minh" },
+  { "_id": 75, "school": "Trường Đại học Xây dựng Miền Tây" },
+  { "_id": 76, "school": "Trường Đại học Xây dựng miền Trung" },
+  { "_id": 77, "school": "Trường Đại học Xây dựng" },
+  { "_id": 78, "school": "Trường Đại học Y Dược Thành phố Hồ Chí Minh" },
+  { "_id": 79, "school": "Trường Đại học Y Hà Nội" },
+  { "_id": 80, "school": "Trường Đại học Y Hải Phòng" },
+  { "_id": 81, "school": "Trường Đại học Y khoa Phạm Ngọc Thạch" },
+  { "_id": 82, "school": "Trường Đại học Y khoa Vinh" },
+  { "_id": 83, "school": "Trường Đại học Y tế Công cộng" },
+  { "_id": 84, "school": "Trường Đại học Y Dược Thái Bình" },
+  { "_id": 85, "school": "Trường Đại học Y-Dược Cần Thơ" },
+  { "_id": 86, "school": "Trường Đại học Việt - Đức" },
+  { "_id": 87, "school": "Học viện Âm nhạc Huế" },
+  { "_id": 88, "school": "Học viện Âm nhạc Quốc gia Việt Nam" },
+  { "_id": 89, "school": "Học viện Múa Việt Nam" },
+  { "_id": 90, "school": "Học viện Báo chí và Tuyên truyền" },
+  { "_id": 91, "school": "Học viện Chính trị Quốc gia Hồ Chí Minh" },
+  { "_id": 92, "school": "Học viện Công nghệ Bưu chính Viễn thông" },
+  { "_id": 93, "school": "Học viện dân tộc" },
+  { "_id": 94, "school": "Học viện Hàng không Việt Nam" },
+  { "_id": 95, "school": "Học viện Hành chính (Việt Nam)" },
+  { "_id": 96, "school": "Học viện Khoa học và Công nghệ" },
+  { "_id": 97, "school": "Học viện Khoa học Xã hội" },
+  { "_id": 98, "school": "Học viện Ngân hàng (Việt Nam)" },
+  { "_id": 99, "school": "Học viện Ngoại giao (Việt Nam)" },
+  { "_id": 100, "school": "Học viện Nông nghiệp Việt Nam" },
+  { "_id": 101, "school": "Học viện Phụ nữ Việt Nam" },
+  { "_id": 102, "school": "Học viện Quản lý Giáo dục" },
+  { "_id": 103, "school": "Học viện Tài chính (Việt Nam)" },
+  { "_id": 104, "school": "Học viện Thanh thiếu niên Việt Nam" },
+  { "_id": 105, "school": "Học viện Tòa án" },
+  { "_id": 106, "school": "Học viện Tư pháp Việt Nam" },
+  { "_id": 107, "school": "Học viện Y dược học cổ truyền Việt Nam" },
+  { "_id": 108, "school": "Nhạc viện Thành phố Hồ Chí Minh" },
+  { "_id": 109, "school": "Trường Đại học Bạc Liêu" },
+  { "_id": 110, "school": "Trường Đại học Đồng Nai" },
+  { "_id": 111, "school": "Trường Đại học Hà Tĩnh" },
+  { "_id": 112, "school": "Trường Đại học Hạ Long" },
+  { "_id": 113, "school": "Trường Đại học Hải Phòng" },
+  { "_id": 114, "school": "Trường Đại học Hồng Đức" },
+  { "_id": 115, "school": "Trường Đại học Hoa Lư" },
+  { "_id": 116, "school": "Trường Đại học Hùng Vương" },
+  { "_id": 117, "school": "Trường Đại học Khánh Hòa" },
+  { "_id": 118, "school": "Trường Đại học Kinh tế Nghệ An" },
+  { "_id": 119, "school": "Trường Đại học Kỹ thuật - Công nghệ Cần Thơ" },
+  { "_id": 120, "school": "Trường Đại học Phú Yên" },
+  { "_id": 121, "school": "Trường Đại học Quảng Bình" },
+  { "_id": 122, "school": "Trường Đại học Quảng Nam" },
+  { "_id": 123, "school": "Trường Đại học Sài Gòn" },
+  { "_id": 124, "school": "Trường Đại học Thủ Dầu Một (Tỉnh Bình Dương)" },
+  { "_id": 125, "school": "Trường Đại học Thủ đô Hà Nội" },
+  { "_id": 126, "school": "Trường Đại học Thái Bình" },
+  { "_id": 127, "school": "Trường Đại học Trà Vinh" },
+  {
+    "_id": 128,
+    "school": "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hóa"
+  },
+  {
+    "_id": 129,
+    "school": "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hóa"
+  },
+  { "_id": 130, "school": "Trường Đại học Tiền Giang" },
+  { "_id": 131, "school": "Trường Đại học Bà Rịa - Vũng Tàu" },
+  { "_id": 132, "school": "Trường Đại học Bình Dương" },
+  { "_id": 133, "school": "Trường Đại học Chu Văn An" },
+  { "_id": 134, "school": "Trường Đại học Công nghệ Đông Á" },
+  { "_id": 135, "school": "Trường Đại học Công nghệ Đồng Nai" },
+  { "_id": 136, "school": "Trường Đại học Công nghệ Sài Gòn" },
+  { "_id": 137, "school": "Trường Đại học Công nghệ Thành phố Hồ Chí Minh" },
+  { "_id": 138, "school": "Trường Đại học Công nghệ Vạn Xuân" },
+  { "_id": 139, "school": "Trường Đại học Công nghiệp Vinh" },
+  { "_id": 140, "school": "Trường Đại học Cửu Long" },
+  { "_id": 141, "school": "Trường Đại học Đại Nam" },
+  { "_id": 142, "school": "Đại học Quản lý và Công nghệ Hải Phòng" },
+  { "_id": 143, "school": "Trường Đại học Dân lập Yersin Đà Lạt" },
+  { "_id": 144, "school": "Trường Đại học Đông Á" },
+  { "_id": 145, "school": "Trường Đại học Đông Đô" },
+  { "_id": 146, "school": "Trường Đại học Duy Tân" },
+  { "_id": 147, "school": "Trường Đại học FPT" },
+  { "_id": 148, "school": "Đại học Fulbright Việt Nam" },
+  { "_id": 149, "school": "Trường Đại học Gia Định" },
+  { "_id": 150, "school": "Trường Đại học Hà Hoa Tiên" },
+  { "_id": 151, "school": "Trường Đại học Hòa Bình" },
+  { "_id": 152, "school": "Trường Đại học Hoa Sen" },
+  { "_id": 153, "school": "Trường Đại học Hùng Vương Thành phố Hồ Chí Minh" },
+  { "_id": 154, "school": "Trường Đại học Kiến trúc Đà Nẵng" },
+  { "_id": 155, "school": "Trường Đại học Kinh Bắc" },
+  { "_id": 156, "school": "Trường Đại học Kinh doanh và Công nghệ Hà Nội" },
+  {
+    "_id": 157,
+    "school": "Trường Đại học Kinh tế - Tài chính Thành phố Hồ Chí Minh"
+  },
+  { "_id": 158, "school": "Trường Đại học Kinh tế Công nghiệp Long An" },
+  { "_id": 159, "school": "Trường Đại học Kinh tế - Kỹ thuật Bình Dương" },
+  { "_id": 160, "school": "Trường Đại học Lạc Hồng" },
+  { "_id": 161, "school": "Trường Đại học Lương Thế Vinh" },
+  { "_id": 162, "school": "Trường Đại học Nam Cần Thơ" },
+  {
+    "_id": 163,
+    "school": "Trường Đại học Ngoại ngữ - Tin học Thành phố Hồ Chí Minh"
+  },
+  { "_id": 164, "school": "Trường Đại học Nguyễn Tất Thành" },
+  { "_id": 165, "school": "Trường Đại học Nguyễn Trãi" },
+  { "_id": 166, "school": "Trường Đại học Phan Châu Trinh" },
+  { "_id": 167, "school": "Trường Đại học Phan Thiết" },
+  { "_id": 168, "school": "Trường Đại học Phú Xuân" },
+  { "_id": 169, "school": "Trường Đại học Phương Đông (Việt Nam)" },
+  { "_id": 170, "school": "Trường Đại học Quang Trung" },
+  { "_id": 171, "school": "Trường Đại học Quốc tế Bắc Hà" },
+  { "_id": 172, "school": "Trường Đại học Quốc tế Hồng Bàng" },
+  { "_id": 173, "school": "Trường Đại học Quốc tế Miền Đông" },
+  { "_id": 174, "school": "Trường Đại học Quốc tế Sài Gòn" },
+  { "_id": 175, "school": "Đại học RMIT Việt Nam" },
+  { "_id": 176, "school": "Trường Đại học Tân Tạo" },
+  { "_id": 177, "school": "Trường Đại học Tây Đô" },
+  { "_id": 178, "school": "Trường Đại học Thái Bình Dương" },
+  { "_id": 179, "school": "Trường Đại học Thăng Long" },
+  { "_id": 180, "school": "Trường Đại học Thành Đô" },
+  { "_id": 181, "school": "Trường Đại học Văn Hiến" },
+  { "_id": 182, "school": "Trường Đại học Văn Lang" },
+  { "_id": 183, "school": "Trường Đại học VinUni" },
+  { "_id": 184, "school": "Trường Đại học Võ Trường Toản" },
+  { "_id": 185, "school": "Học viện Biên phòng" },
+  { "_id": 186, "school": "Học viện Chính trị" },
+  { "_id": 187, "school": "Học viện Hải quân (Việt Nam)" },
+  { "_id": 188, "school": "Học viện Hậu cần" },
+  { "_id": 189, "school": "Học viện Khoa học Quân sự" },
+  { "_id": 190, "school": "Học viện Kỹ thuật Mật mã" },
+  { "_id": 191, "school": "Học viện Kỹ thuật Quân sự" },
+  { "_id": 192, "school": "Học viện Lục quân (Việt Nam)" },
+  { "_id": 193, "school": "Học viện Phòng không - Không quân" },
+  { "_id": 194, "school": "Học viện Quân Y" },
+  { "_id": 195, "school": "Học viện Quốc phòng (Việt Nam)" },
+  { "_id": 196, "school": "Trường Đại học Ngô Quyền" },
+  { "_id": 197, "school": "Trường Sĩ quan không quân" },
+  { "_id": 198, "school": "Trường Đại học Chính trị" },
+  { "_id": 199, "school": "Trường Đại học Trần Đại Nghĩa" },
+  { "_id": 200, "school": "Trường Đại học Trần Quốc Tuấn" },
+  { "_id": 201, "school": "Trường Đại học Nguyễn Huệ" },
+  { "_id": 202, "school": "Trường Đại học Thông tin liên lạc" },
+  { "_id": 203, "school": "Trường Sĩ quan Pháo binh" },
+  { "_id": 204, "school": "Trường Sĩ quan Phòng hóa" },
+  { "_id": 205, "school": "Trường Sĩ quan Tăng-Thiết giáp" },
+  { "_id": 206, "school": "Trường Sĩ quan Đặc công" },
+  { "_id": 207, "school": "Trường Đại học Văn hóa - Nghệ thuật Quân đội" },
+  { "_id": 208, "school": "Trường Cao đẳng Công nghiệp Quốc phòng" },
+  { "_id": 209, "school": "Trường Cao đẳng Công nghệ và Kỹ thuật Ô tô" },
+  { "_id": 210, "school": "Trường Cao đẳng Công nghệ Viettronics" },
+  { "_id": 211, "school": "Trường Cao đẳng Công nghiệp Nam Định" },
+  { "_id": 212, "school": "Trường Cao đẳng Điện tử - Điện lạnh Hà Nội" },
+  { "_id": 213, "school": "Trường Cao đẳng Dược Trung ương Hải Dương" },
+  { "_id": 214, "school": "Trường Cao đẳng Nội vụ Hà Nội" },
+  { "_id": 215, "school": "Trường Cao đẳng Phát thanh - Truyền hình I" },
+  { "_id": 216, "school": "Trường Cao đẳng Truyền Hình Việt Nam" },
+  { "_id": 217, "school": "Trường Cao đẳng Văn hóa Nghệ thuật Thái Bình" },
+  { "_id": 218, "school": "Trường Cao đẳng Y tế Hà Nội" },
+  { "_id": 219, "school": "Trường Cao đẳng Y tế Ninh Bình" },
+  { "_id": 220, "school": "Cao đẳng Nông Lâm Thanh Hóa" },
+  { "_id": 221, "school": "Trường Cao đẳng Công nghiệp Huế" },
+  { "_id": 222, "school": "Trường Cao đẳng Giao thông Huế" },
+  { "_id": 223, "school": "Trường Cao đẳng Y tế Thanh Hóa" },
+  { "_id": 224, "school": "Trường Cao đẳng Công thương Miền Trung" },
+  { "_id": 225, "school": "Trường Cao đẳng Kinh tế - Kế hoạch Đà Nẵng" },
+  { "_id": 226, "school": "Trường Cao đẳng Sư phạm Đà Lạt" },
+  { "_id": 227, "school": "Trường Cao đẳng Y tế Lâm Đồng" },
+  { "_id": 228, "school": "Cao đẳng Kinh tế Đối ngoại" },
+  { "_id": 229, "school": "Trường Cao đẳng Điện lực Thành phố Hồ Chí Minh" },
+  { "_id": 230, "school": "Trường Cao đẳng Kinh tế Kỹ thuật Công nghiệp II" },
+  { "_id": 231, "school": "Trường Cao đẳng Kinh tế Thành phố Hồ Chí Minh" },
+  { "_id": 232, "school": "Trường Cao đẳng Kỹ thuật Cao Thắng" },
+  { "_id": 233, "school": "Trường Cao đẳng Lý Tự Trọng Thành phố Hồ Chí Minh" },
+  { "_id": 234, "school": "Trường Cao đẳng Phát thanh Truyền hình II" },
+  { "_id": 235, "school": "Trường Cao đẳng Bến Tre" },
+  { "_id": 236, "school": "Trường Cao đẳng Cơ điện và Nông nghiệp Nam Bộ" },
+  { "_id": 237, "school": "Trường Cao đẳng Cộng đồng Đồng Tháp" },
+  { "_id": 238, "school": "Trường Cao đẳng Sư phạm Long An" },
+  { "_id": 239, "school": "Cao đẳng Văn hoá Nghệ thuật Cần Thơ" },
+  { "_id": 240, "school": "Trường Cao đẳng Y tế Đồng Tháp" },
+  {
+    "_id": 241,
+    "school": "Trường Cao đẳng Y tế Kiên Giang (trang không tồn tại)"
+  },
+  {
+    "_id": 242,
+    "school": "Trường Cao đẳng Y tế Tiền Giang (trang không tồn tại)"
+  },
+  {
+    "_id": 243,
+    "school": "Trường Cao đẳng Y tế Trà Vinh (trang không tồn tại)"
+  },
+  { "_id": 244, "school": "Trường Cao đẳng ASEAN (trang không tồn tại)" },
+  { "_id": 245, "school": "Trường Cao đẳng Âu Lạc Huế (trang không tồn tại)" },
+  {
+    "_id": 246,
+    "school": "Trường Cao đẳng Bách khoa Đà Nẵng (trang không tồn tại)"
+  },
+  {
+    "_id": 247,
+    "school": "Trường Cao đẳng Bách khoa Hưng Yên (trang không tồn tại)"
+  },
+  { "_id": 248, "school": "Trường Cao đẳng Bách Việt (trang không tồn tại)" },
+  {
+    "_id": 249,
+    "school": "Trường Cao đẳng Bán công Công nghệ và Quản trị doanh nghiệp (trang không tồn tại)"
+  },
+  {
+    "_id": 250,
+    "school": "Trường Cao đẳng Công nghệ Bắc Hà (trang không tồn tại)"
+  },
+  { "_id": 251, "school": "Trường Cao đẳng Công nghệ Hà Nội" },
+  {
+    "_id": 252,
+    "school": "Trường Cao đẳng Công nghệ thông tin Tp.HCM (trang không tồn tại)"
+  },
+  { "_id": 253, "school": "Trường Cao đẳng Công nghệ và Thương mại Hà Nội" },
+  {
+    "_id": 254,
+    "school": "Trường Cao đẳng Đại Việt - Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 255,
+    "school": "Trường Cao đẳng Đại Việt Đà Nẵng (trang không tồn tại)"
+  },
+  {
+    "_id": 256,
+    "school": "Trường Cao đẳng Đại Việt Sài Gòn (trang không tồn tại)"
+  },
+  { "_id": 257, "school": "Trường Cao đẳng Dược Hà Nội (trang không tồn tại)" },
+  { "_id": 258, "school": "Trường Cao đẳng Hoan Châu (trang không tồn tại)" },
+  {
+    "_id": 259,
+    "school": "Trường Cao đẳng Kinh tế Công nghệ Thành phố Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 260,
+    "school": "Trường Cao đẳng Kinh tế Kỹ thuật Đông Du - Đà Nẵng (trang không tồn tại)"
+  },
+  {
+    "_id": 261,
+    "school": "Trường Cao đẳng Kinh tế Kỹ thuật Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 262,
+    "school": "Trường Cao đẳng Kỹ thuật Công nghệ Bách Khoa (trang không tồn tại)"
+  },
+  {
+    "_id": 263,
+    "school": "Trường Cao đẳng Kỹ thuật Công nghệ Vạn Xuân (trang không tồn tại)"
+  },
+  {
+    "_id": 264,
+    "school": "Trường Cao đẳng Lạc Việt - Đà Nẵng (trang không tồn tại)"
+  },
+  { "_id": 265, "school": "Trường Cao đẳng Miền Nam (trang không tồn tại)" },
+  { "_id": 266, "school": "Trường Cao đẳng Ngoại ngữ - Công nghệ Việt Nhật" },
+  {
+    "_id": 267,
+    "school": "Trường Cao đẳng Phương Đông - Đà Nẵng (trang không tồn tại)"
+  },
+  {
+    "_id": 268,
+    "school": "Trường Cao đẳng Phương Đông - Quảng Nam (trang không tồn tại)"
+  },
+  { "_id": 269, "school": "Trường Cao đẳng Quảng Ngãi (trang không tồn tại)" },
+  {
+    "_id": 270,
+    "school": "Trường cao đẳng Quốc tế BTEC FPT (trang không tồn tại)"
+  },
+  {
+    "_id": 271,
+    "school": "Trường Cao đẳng Quốc tế Pegasus (trang không tồn tại)"
+  },
+  { "_id": 272, "school": "Trường Cao đẳng Tâm Trí (trang không tồn tại)" },
+  {
+    "_id": 273,
+    "school": "Trường Cao đẳng Tư thục Đức Trí - Đà Nẵng (trang không tồn tại)"
+  },
+  {
+    "_id": 274,
+    "school": "Trường Cao đẳng Văn hoá Nghệ thuật và Du lịch Sài Gòn"
+  },
+  { "_id": 275, "school": "Trường Cao đẳng Viễn Đông (trang không tồn tại)" },
+  { "_id": 276, "school": "Trường Cao đẳng Việt - Anh (trang không tồn tại)" },
+  { "_id": 277, "school": "Trường Cao đẳng Việt Mỹ (trang không tồn tại)" },
+  {
+    "_id": 278,
+    "school": "Trường Cao đẳng Y Dược Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 279,
+    "school": "Trường Cao đẳng Y Dược Hợp Lực - Thanh Hóa (trang không tồn tại)"
+  },
+  {
+    "_id": 280,
+    "school": "Trường Cao đẳng Y Dược Pasteur Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 281,
+    "school": "Trường Cao đẳng Y Dược Pasteur Thành phố Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 282,
+    "school": "Trường Cao đẳng Y Dược Pasteur Yên Bái (trang không tồn tại)"
+  },
+  {
+    "_id": 283,
+    "school": "Trường Cao đẳng Y Dược Phú Thọ (trang không tồn tại)"
+  },
+  {
+    "_id": 284,
+    "school": "Trường Cao đẳng Y Dược Sài Gòn (trang không tồn tại)"
+  },
+  {
+    "_id": 285,
+    "school": "Trường Cao đẳng Y Khoa Phạm Ngọc Thạch (trang không tồn tại)"
+  },
+  {
+    "_id": 286,
+    "school": "Trường Cao đẳng Cơ Điện và Công nghệ thực phẩm Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 287,
+    "school": "Trường Cao đẳng Điện lực miền Bắc (trang không tồn tại)"
+  },
+  { "_id": 288, "school": "Trường Cao đẳng Đường sắt (trang không tồn tại)" },
+  {
+    "_id": 289,
+    "school": "Trường Cao đẳng Giao thông vận tải Trung ương I (trang không tồn tại)"
+  },
+  {
+    "_id": 290,
+    "school": "Trường Cao đẳng Kỹ thuật trang thiết bị Y tế (trang không tồn tại)"
+  },
+  {
+    "_id": 291,
+    "school": "Trường Cao đẳng nghề An ninh - Công nghệ (trang không tồn tại)"
+  },
+  {
+    "_id": 292,
+    "school": "Trường Cao đẳng nghề Bách khoa Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 293,
+    "school": "Trường Cao đẳng nghề Bách Khoa (trang không tồn tại)"
+  },
+  {
+    "_id": 294,
+    "school": "Trường Cao đẳng nghề Cơ điện Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 295,
+    "school": "Trường Cao đẳng nghề Công nghệ cao Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 296,
+    "school": "Trường Cao đẳng nghề Công nghệ và Kinh tế Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 297,
+    "school": "Trường Cao đẳng nghề Công nghiệp Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 298,
+    "school": "Trường Cao đẳng nghề Hùng Vương (trang không tồn tại)"
+  },
+  {
+    "_id": 299,
+    "school": "Trường Cao đẳng nghề Kinh doanh và Công nghệ Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 300,
+    "school": "Trường Cao đẳng nghề Kỹ thuật - Công nghệ - Kinh tế Simco Sông Đà (trang không tồn tại)"
+  },
+  {
+    "_id": 301,
+    "school": "Trường Cao đẳng nghề Kỹ thuật Công nghệ (trang không tồn tại)"
+  },
+  {
+    "_id": 302,
+    "school": "Trường Cao đẳng nghề Kỹ thuật Mỹ nghệ Việt Nam (trang không tồn tại)"
+  },
+  {
+    "_id": 303,
+    "school": "Trường Cao đẳng Nghề Kỹ thuật và Nghiệp vụ Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 304,
+    "school": "Trường Cao đẳng nghề Long Biên (trang không tồn tại)"
+  },
+  {
+    "_id": 305,
+    "school": "Trường Cao đẳng nghề Nguyễn Trãi (trang không tồn tại)"
+  },
+  {
+    "_id": 306,
+    "school": "Trường Cao đẳng nghề Quốc tế Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 307,
+    "school": "Trường Cao đẳng nghề số 17 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 308,
+    "school": "Trường Cao đẳng nghề Thăng Long (trang không tồn tại)"
+  },
+  {
+    "_id": 309,
+    "school": "Trường Cao đẳng nghề Trần Hưng Đạo (trang không tồn tại)"
+  },
+  {
+    "_id": 310,
+    "school": "Trường Cao đẳng nghề Văn Lang Hà Nội (trang không tồn tại)"
+  },
+  {
+    "_id": 311,
+    "school": "Trường Cao đẳng nghề Việt Nam - Hàn Quốc Thành phố Hà Nội (trang không tồn tại)"
+  },
+  { "_id": 312, "school": "Trường Cao đẳng Phú Châu (trang không tồn tại)" },
+  { "_id": 313, "school": "Trường Cao đẳng Thực hành FPT" },
+  {
+    "_id": 314,
+    "school": "Trường Cao đẳng Giao thông vận tải Đường thủy II (trang không tồn tại)"
+  },
+  {
+    "_id": 315,
+    "school": "Trường Cao đẳng Giao thông vận tải Trung ương III (trang không tồn tại)"
+  },
+  {
+    "_id": 316,
+    "school": "Trường Cao đẳng Kinh tế - Kỹ thuật Thủ Đức (trang không tồn tại)"
+  },
+  { "_id": 317, "school": "Trường Cao đẳng Kỹ nghệ II (trang không tồn tại)" },
+  {
+    "_id": 318,
+    "school": "Trường Cao đẳng Kỹ thuật Nguyễn Trường Tộ (trang không tồn tại)"
+  },
+  {
+    "_id": 319,
+    "school": "Trường Cao đẳng nghề Công nghệ thông tin iSPACE (trang không tồn tại)"
+  },
+  {
+    "_id": 320,
+    "school": "Trường Cao đẳng nghề Du lịch Sài Gòn (trang không tồn tại)"
+  },
+  {
+    "_id": 321,
+    "school": "Trường Cao đẳng Nghề Hàng hải Thành phố Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 322,
+    "school": "Trường Cao đẳng Nghề Kinh tế kỹ thuật Thành phố Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 323,
+    "school": "Trường Cao đẳng nghề Sài Gòn (trang không tồn tại)"
+  },
+  {
+    "_id": 324,
+    "school": "Trường Cao đẳng nghề số 7 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 325,
+    "school": "Trường Cao đẳng Nghề Thành phố Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 326,
+    "school": "Trường Cao đẳng Quốc tế Thành phố Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 327,
+    "school": "Trường Cao đẳng Thủ Thiêm - TP. Hồ Chí Minh (trang không tồn tại)"
+  },
+  {
+    "_id": 328,
+    "school": "Cao đẳng nghề Nông nghiệp và Phát triển Nông thôn Thanh Hóa (trang không tồn tại)"
+  },
+  {
+    "_id": 329,
+    "school": "Trường Cao đẳng Cơ điện Phú Thọ (trang không tồn tại)"
+  },
+  {
+    "_id": 330,
+    "school": "Trường Cao đẳng Cơ điện và Xây dựng Bắc Ninh (trang không tồn tại)"
+  },
+  {
+    "_id": 331,
+    "school": "Trường Cao đẳng Cơ giới Xây dựng (trang không tồn tại)"
+  },
+  {
+    "_id": 332,
+    "school": "Trường Cao đẳng Cơ khí Nông nghiệp (trang không tồn tại)"
+  },
+  {
+    "_id": 333,
+    "school": "Trường Cao đẳng Công nghiệp Bắc Ninh (trang không tồn tại)"
+  },
+  {
+    "_id": 334,
+    "school": "Trường Cao đẳng Công nghiệp Dệt - May Nam Định (trang không tồn tại)"
+  },
+  {
+    "_id": 335,
+    "school": "Trường Cao đẳng Công Thương Thái Nguyên (trang không tồn tại)"
+  },
+  {
+    "_id": 336,
+    "school": "Trường Cao đẳng Du lịch – Thương mại Nghệ An (trang không tồn tại)"
+  },
+  {
+    "_id": 337,
+    "school": "Trường Cao đẳng Kỹ thuật Công nghệ Hòa Bình (trang không tồn tại)"
+  },
+  {
+    "_id": 338,
+    "school": "Trường Cao đẳng Kỹ thuật Công nghệ Nam Định (trang không tồn tại)"
+  },
+  {
+    "_id": 339,
+    "school": "Trường Cao đẳng Kỹ thuật công nghệ Sơn La (trang không tồn tại)"
+  },
+  {
+    "_id": 340,
+    "school": "Trường Cao đẳng Kỹ thuật và Công nghệ tỉnh Hà Giang (trang không tồn tại)"
+  },
+  { "_id": 341, "school": "Trường Cao đẳng Lào Cai (trang không tồn tại)" },
+  {
+    "_id": 342,
+    "school": "Trường Cao đẳng nghề An Nhất Vinh (trang không tồn tại)"
+  },
+  {
+    "_id": 343,
+    "school": "Trường Cao đẳng nghề Bắc Giang (trang không tồn tại)"
+  },
+  {
+    "_id": 344,
+    "school": "Trường Cao đẳng nghề Bắc Nam (trang không tồn tại)"
+  },
+  {
+    "_id": 345,
+    "school": "Trường Cao đẳng nghề Bách nghệ Hải Phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 346,
+    "school": "Trường Cao đẳng nghề Cơ điện Tây Bắc (trang không tồn tại)"
+  },
+  {
+    "_id": 347,
+    "school": "Trường Cao đẳng nghề Cơ điện và Thủy lợi (trang không tồn tại)"
+  },
+  {
+    "_id": 348,
+    "school": "Trường Cao đẳng nghề Cơ điện xây dựng Tam Điệp (trang không tồn tại)"
+  },
+  { "_id": 349, "school": "Trường Cao đẳng nghề Cơ giới Ninh Bình" },
+  {
+    "_id": 350,
+    "school": "Trường Cao đẳng nghề Công nghệ Giấy và Cơ điện (trang không tồn tại)"
+  },
+  {
+    "_id": 351,
+    "school": "Trường Cao đẳng nghề Công nghệ Hà Tĩnh (trang không tồn tại)"
+  },
+  {
+    "_id": 352,
+    "school": "Trường Cao đẳng nghề Công nghệ LICOGI Thanh Hóa (trang không tồn tại)"
+  },
+  {
+    "_id": 353,
+    "school": "Trường Cao đẳng nghề Công nghệ và Nông lâm Đông Bắc (trang không tồn tại)"
+  },
+  {
+    "_id": 354,
+    "school": "Trường Cao đẳng nghề Công nghệ và Nông lâm Phú Thọ (trang không tồn tại)"
+  },
+  {
+    "_id": 355,
+    "school": "Trường Cao đẳng nghề Công nghệ Việt- Hàn Bắc Giang (trang không tồn tại)"
+  },
+  {
+    "_id": 356,
+    "school": "Trường Cao đẳng nghề Công nghệ, Kinh tế và Chế biến lâm sản (trang không tồn tại)"
+  },
+  {
+    "_id": 357,
+    "school": "Trường Cao đẳng nghề Công nghệ, Kinh tế và Thủy sản (trang không tồn tại)"
+  },
+  {
+    "_id": 358,
+    "school": "Trường Cao đẳng nghề Công nghiệp Hải Phòng (trang không tồn tại)"
+  },
+  { "_id": 359, "school": "Trường Cao đẳng nghề Công nghiệp Thanh Hóa" },
+  {
+    "_id": 360,
+    "school": "Trường Cao đẳng nghề Công nghiệp Việt Bắc - Vinacomin (trang không tồn tại)"
+  },
+  {
+    "_id": 361,
+    "school": "Trường Cao đẳng nghề Công thương Việt Nam (trang không tồn tại)"
+  },
+  { "_id": 362, "school": "Trường Cao đẳng nghề Đại An (trang không tồn tại)" },
+  {
+    "_id": 363,
+    "school": "Trường Cao đẳng nghề dân tộc nội trú Bắc Kạn (trang không tồn tại)"
+  },
+  {
+    "_id": 364,
+    "school": "Trường Cao đẳng nghề Dịch vụ Hàng không AIRSERCO (trang không tồn tại)"
+  },
+  {
+    "_id": 365,
+    "school": "Trường Cao đẳng nghề Điện Biên (trang không tồn tại)"
+  },
+  {
+    "_id": 366,
+    "school": "Trường Cao đẳng nghề Du lịch và dịch vụ Hải Phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 367,
+    "school": "Trường Cao đẳng nghề Duyên Hải (trang không tồn tại)"
+  },
+  {
+    "_id": 368,
+    "school": "Trường Cao đẳng Nghề Giao thông Cơ điện Quảng Ninh (trang không tồn tại)"
+  },
+  {
+    "_id": 369,
+    "school": "Trường Cao đẳng nghề Giao thông Vận tải Đường thủy I (trang không tồn tại)"
+  },
+  {
+    "_id": 370,
+    "school": "Trường Cao đẳng nghề Giao thông vận tải trung ương II (trang không tồn tại)"
+  },
+  { "_id": 371, "school": "Trường Cao đẳng nghề Hà Nam (trang không tồn tại)" },
+  {
+    "_id": 372,
+    "school": "Trường Cao đẳng nghề Hải Dương (trang không tồn tại)"
+  },
+  {
+    "_id": 373,
+    "school": "Trường Cao đẳng nghề Kinh tế - Công nghệ VICET (trang không tồn tại)"
+  },
+  {
+    "_id": 374,
+    "school": "Trường Cao đẳng nghề Kinh tế - Kỹ thuật Bắc Bộ (trang không tồn tại)"
+  },
+  {
+    "_id": 375,
+    "school": "Trường Cao đẳng nghề Kinh tế - Kỹ thuật số 1 Nghệ An (trang không tồn tại)"
+  },
+  {
+    "_id": 376,
+    "school": "Trường Cao đẳng nghề Kinh tế - Kỹ thuật Tô Hiệu (trang không tồn tại)"
+  },
+  {
+    "_id": 377,
+    "school": "Trường Cao đẳng nghề Kỹ thuật - Công nghệ LOD (trang không tồn tại)"
+  },
+  {
+    "_id": 378,
+    "school": "Trường Cao đẳng nghề Kỹ thuật Công nghiệp Việt Nam - Hàn Quốc Nghệ An (trang không tồn tại)"
+  },
+  {
+    "_id": 379,
+    "school": "Trường Cao đẳng Nghề Kỹ thuật y tế Thăng Long (trang không tồn tại)"
+  },
+  {
+    "_id": 380,
+    "school": "Trường Cao đẳng Nghề Kỹ thuật-Công nghệ Tuyên Quang (trang không tồn tại)"
+  },
+  {
+    "_id": 381,
+    "school": "Trường Cao đẳng nghề Lam Kinh (trang không tồn tại)"
+  },
+  {
+    "_id": 382,
+    "school": "Trường Cao đẳng nghề Lạng Sơn (trang không tồn tại)"
+  },
+  {
+    "_id": 383,
+    "school": "Trường Cao đẳng nghề Lao động - Xã hội Hải Phòng (trang không tồn tại)"
+  },
+  { "_id": 384, "school": "Trường Cao đẳng nghề LILAMA-1" },
+  {
+    "_id": 385,
+    "school": "Trường Cao đẳng nghề Phú Thọ (trang không tồn tại)"
+  },
+  {
+    "_id": 386,
+    "school": "Trường Cao đẳng nghề Quản lý và Công nghệ (trang không tồn tại)"
+  },
+  {
+    "_id": 387,
+    "school": "Trường Cao đẳng nghề số 1 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 388,
+    "school": "Trường Cao đẳng nghề số 13 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 389,
+    "school": "Trường Cao đẳng nghề số 19 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 390,
+    "school": "Trường Cao đẳng nghề số 2 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 391,
+    "school": "Trường Cao đẳng nghề số 20 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 392,
+    "school": "Trường Cao đẳng nghề số 3 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 393,
+    "school": "Trường Cao đẳng nghề số 4 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 394,
+    "school": "Trường Cao đẳng nghề Sông Đà (trang không tồn tại)"
+  },
+  {
+    "_id": 395,
+    "school": "Trường Cao đẳng nghề Thái Bình (trang không tồn tại)"
+  },
+  {
+    "_id": 396,
+    "school": "Trường Cao đẳng nghề Thương mại và Công nghiệp (trang không tồn tại)"
+  },
+  {
+    "_id": 397,
+    "school": "Trường Cao đẳng nghề Việt - Hàn Quảng Ninh (trang không tồn tại)"
+  },
+  {
+    "_id": 398,
+    "school": "Trường Cao đẳng nghề Việt Xô số 1 (trang không tồn tại)"
+  },
+  {
+    "_id": 399,
+    "school": "Trường Cao đẳng nghề Việt-Đức Hà Tĩnh (trang không tồn tại)"
+  },
+  {
+    "_id": 400,
+    "school": "Trường Cao đẳng nghề Viglacera (trang không tồn tại)"
+  },
+  {
+    "_id": 401,
+    "school": "Trường Cao đẳng nghề Vĩnh Phúc (trang không tồn tại)"
+  },
+  {
+    "_id": 402,
+    "school": "Trường Cao đẳng nghề Yên Bái (trang không tồn tại)"
+  },
+  {
+    "_id": 403,
+    "school": "Trường Cao đẳng Than - Khoáng sản Việt Nam (trang không tồn tại)"
+  },
+  {
+    "_id": 404,
+    "school": "Trường Cao đẳng Việt Đức Nghệ An (trang không tồn tại)"
+  },
+  { "_id": 405, "school": "Trường Cao đẳng VMU (trang không tồn tại)" },
+  {
+    "_id": 406,
+    "school": "Trường Cao đẳng Cơ điện – Xây dựng và Nông lâm Trung Bộ (trang không tồn tại)"
+  },
+  {
+    "_id": 407,
+    "school": "Trường Cao đẳng Công nghệ Quốc tế LILAMA-2 (trang không tồn tại)"
+  },
+  {
+    "_id": 408,
+    "school": "Trường Cao đẳng Công nghệ Tây Nguyên (trang không tồn tại)"
+  },
+  {
+    "_id": 409,
+    "school": "Trường Cao đẳng Công nghệ và Nông lâm Nam Bộ (trang không tồn tại)"
+  },
+  { "_id": 410, "school": "Trường Cao đẳng Dầu khí (trang không tồn tại)" },
+  { "_id": 411, "school": "Trường Cao đẳng Đồng Khởi (trang không tồn tại)" },
+  {
+    "_id": 412,
+    "school": "Trường Cao đẳng Du lịch Cần Thơ (trang không tồn tại)"
+  },
+  {
+    "_id": 413,
+    "school": "Trường Cao đẳng Du lịch Đà Lạt (trang không tồn tại)"
+  },
+  {
+    "_id": 414,
+    "school": "Trường Cao đẳng Du lịch Đà Nẵng (trang không tồn tại)"
+  },
+  { "_id": 415, "school": "Trường Cao đẳng Du lịch Huế (trang không tồn tại)" },
+  {
+    "_id": 416,
+    "school": "Trường Cao đẳng Du lịch Nha Trang (trang không tồn tại)"
+  },
+  {
+    "_id": 417,
+    "school": "Trường Cao đẳng Du lịch Vũng Tàu (trang không tồn tại)"
+  },
+  { "_id": 418, "school": "Trường Cao đẳng Hòa Bình Xuân Lộc" },
+  {
+    "_id": 419,
+    "school": "Trường Cao đẳng Kỹ nghệ Dung Quất (trang không tồn tại)"
+  },
+  {
+    "_id": 420,
+    "school": "Trường Cao đẳng Kỹ thuật Công nghệ Bà Rịa - Vũng Tàu (trang không tồn tại)"
+  },
+  {
+    "_id": 421,
+    "school": "Trường Cao đẳng Kỹ thuật Công nghệ Nha Trang (trang không tồn tại)"
+  },
+  {
+    "_id": 422,
+    "school": "Trường Cao đẳng Kỹ thuật Công nghệ Quy Nhơn (trang không tồn tại)"
+  },
+  {
+    "_id": 423,
+    "school": "Trường Cao đẳng Kỹ thuật Đắk Lắk (trang không tồn tại)"
+  },
+  {
+    "_id": 424,
+    "school": "Trường Cao đẳng Kỹ thuật Đồng Nai (trang không tồn tại)"
+  },
+  {
+    "_id": 425,
+    "school": "Trường Cao đẳng nghề An Giang (trang không tồn tại)"
+  },
+  {
+    "_id": 426,
+    "school": "Trường Cao đẳng nghề Bạc Liêu (trang không tồn tại)"
+  },
+  {
+    "_id": 427,
+    "school": "Trường Cao đẳng nghề Bình Phước (trang không tồn tại)"
+  },
+  {
+    "_id": 428,
+    "school": "Trường Cao đẳng nghề Bình Thuận (trang không tồn tại)"
+  },
+  {
+    "_id": 429,
+    "school": "Trường Cao đẳng nghề Cần Thơ (trang không tồn tại)"
+  },
+  {
+    "_id": 430,
+    "school": "Trường Cao đẳng nghề Cơ giới Quảng Ngãi (trang không tồn tại)"
+  },
+  {
+    "_id": 431,
+    "school": "Trường Cao đẳng nghề Cơ giới và Thủy lợi (trang không tồn tại)"
+  },
+  {
+    "_id": 432,
+    "school": "Trường Cao đẳng nghề Công nghệ cao Đồng An (trang không tồn tại)"
+  },
+  {
+    "_id": 433,
+    "school": "Trường Cao đẳng nghề Công nghệ cao Đồng Nai (trang không tồn tại)"
+  },
+  {
+    "_id": 434,
+    "school": "Trường Cao đẳng nghề Công nghệ Sài Gòn (trang không tồn tại)"
+  },
+  { "_id": 435, "school": "Trường Cao đẳng nghề Đà Lạt (trang không tồn tại)" },
+  {
+    "_id": 436,
+    "school": "Trường Cao đẳng nghề Đà Nẵng (trang không tồn tại)"
+  },
+  {
+    "_id": 437,
+    "school": "Trường Cao đẳng nghề Đồng Tháp (trang không tồn tại)"
+  },
+  {
+    "_id": 438,
+    "school": "Trường Cao đẳng nghề Hoa Sen (trang không tồn tại)"
+  },
+  {
+    "_id": 439,
+    "school": "Trường Cao đẳng Nghề Khách sạn Du lịch Quốc tế IMPERIAL (trang không tồn tại)"
+  },
+  {
+    "_id": 440,
+    "school": "Trường Cao đẳng nghề Kiên Giang (trang không tồn tại)"
+  },
+  {
+    "_id": 441,
+    "school": "Trường Cao đẳng nghề Kỹ thuật Công nghệ LADEC (trang không tồn tại)"
+  },
+  {
+    "_id": 442,
+    "school": "Trường Cao đẳng nghề Kỹ thuật thiết bị Y tế Bình Dương (trang không tồn tại)"
+  },
+  {
+    "_id": 443,
+    "school": "Trường Cao đẳng nghề Long An (trang không tồn tại)"
+  },
+  {
+    "_id": 444,
+    "school": "Trường Cao đẳng nghề Nguyễn Tri Phương (trang không tồn tại)"
+  },
+  {
+    "_id": 445,
+    "school": "Trường Cao đẳng nghề Nguyễn Văn Trỗi (trang không tồn tại)"
+  },
+  {
+    "_id": 446,
+    "school": "Trường Cao đẳng nghề Ninh Thuận (trang không tồn tại)"
+  },
+  {
+    "_id": 447,
+    "school": "Trường Cao đẳng nghề Phú Yên (trang không tồn tại)"
+  },
+  {
+    "_id": 448,
+    "school": "Trường Cao đẳng nghề Quảng Bình (trang không tồn tại)"
+  },
+  {
+    "_id": 449,
+    "school": "Trường Cao đẳng nghề Quảng Nam (trang không tồn tại)"
+  },
+  {
+    "_id": 450,
+    "school": "Trường Cao đẳng nghề Quốc tế Nam Việt (trang không tồn tại)"
+  },
+  {
+    "_id": 451,
+    "school": "Trường Cao đẳng nghề số 21 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 452,
+    "school": "Trường Cao đẳng nghề số 22 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 453,
+    "school": "Trường Cao đẳng nghề số 23 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 454,
+    "school": "Trường Cao đẳng nghề số 5 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 455,
+    "school": "Trường Cao đẳng nghề số 8 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 456,
+    "school": "Trường Cao đẳng nghề số 9 - Bộ Quốc phòng (trang không tồn tại)"
+  },
+  {
+    "_id": 457,
+    "school": "Trường Cao đẳng nghề Sóc Trăng (trang không tồn tại)"
+  },
+  {
+    "_id": 458,
+    "school": "Trường Cao đẳng nghề Tây Ninh (trang không tồn tại)"
+  },
+  {
+    "_id": 459,
+    "school": "Trường Cao đẳng nghề Tây Sài Gòn (trang không tồn tại)"
+  },
+  {
+    "_id": 460,
+    "school": "Trường Cao đẳng Nghề Thừa Thiên Huế (trang không tồn tại)"
+  },
+  {
+    "_id": 461,
+    "school": "Trường Cao đẳng nghề Tiền Giang (trang không tồn tại)"
+  },
+  {
+    "_id": 462,
+    "school": "Trường Cao đẳng nghề Trà Vinh (trang không tồn tại)"
+  },
+  {
+    "_id": 463,
+    "school": "Trường Cao đẳng nghề Trần Đại Nghĩa (trang không tồn tại)"
+  },
+  {
+    "_id": 464,
+    "school": "Trường Cao đẳng nghề Việt Nam - Hàn Quốc Cà Mau (trang không tồn tại)"
+  },
+  {
+    "_id": 465,
+    "school": "Trường Cao đẳng nghề Việt Nam - Singapore (trang không tồn tại)"
+  },
+  {
+    "_id": 466,
+    "school": "Trường Cao đẳng nghề Việt Nam-Hàn Quốc Quảng Ngãi (trang không tồn tại)"
+  },
+  {
+    "_id": 467,
+    "school": "Trường Cao đẳng nghề Việt-Úc Đà Nẵng (trang không tồn tại)"
+  },
+  {
+    "_id": 468,
+    "school": "Trường Cao đẳng nghề Vĩnh Long (trang không tồn tại)"
+  },
+  {
+    "_id": 469,
+    "school": "Trường Cao đẳng Quốc tế Vabis (trang không tồn tại)"
+  },
+  { "_id": 470, "school": "Trường Cao đẳng Thaco (trang không tồn tại)" },
+  {
+    "_id": 471,
+    "school": "Trường Cao đẳng Việt Nam-Hàn Quốc Bình Dương (trang không tồn tại)"
+  }
+]

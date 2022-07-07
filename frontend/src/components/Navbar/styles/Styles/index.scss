@@ -1,0 +1,89 @@
+@import "./variables";
+@import "./util";
+@import "./shared";
+@import "./btn";
+@import "./table";
+@import '../../../../global//variables/mixins';
+// @import '~material-design-icons/iconfont/material-icons.css';
+// @import "../Shared/Components/Table/table.scss";
+.responsiveTable{
+  min-height: 430px;
+  @include desktop2{
+    min-height: 700px;
+  }
+}
+
+.modalBody {
+  .noti {
+    width: 100%;
+    color: #219859;
+  }
+  .internUpdate {
+    span {
+      color: red;
+    }
+    p {
+      color: #555;
+    }
+    min-height: 70px;
+    input {
+      width: 220px;
+      @media (min-width: 1900px) {
+        width: 350px;
+      }
+    }
+    .inputLink {
+      width: 220px;
+      @media (min-width: 1900px) {
+        width: 530px;
+      }
+    }
+    .inputLink2 {
+      width: 765px;
+    }
+  }
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+  span {
+    color: black !important;
+    font-size: 13px;
+  }
+}
+.allFile {
+  display: block;
+  width: 200px;
+  .file {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 5px 0px 5px;
+    display: flex;
+    width: 465px;
+    justify-content: space-between;
+    margin: 5px 0;
+    cursor: pointer;
+    span {
+      font-size: 12px;
+      color: black !important;
+    }
+    .click {
+      font-size: 16px;
+      display: block;
+      padding-right: 10px;
+      margin-top: -5px;
+      padding-top: 0px;
+    }
+    &Name{
+      display: block;
+      width: 50px;
+    }
+  }
+}

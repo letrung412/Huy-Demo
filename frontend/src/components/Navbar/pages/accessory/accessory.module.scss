@@ -1,0 +1,205 @@
+@import "../../../../global/variables/colors";
+@import "../../../../global/variables/mixins";
+
+.accessory {
+  @include Relative;
+  margin: 40px 75px;
+  display: flex;
+  &Link {
+    display: flex;
+    &Item {
+      padding: 0 !important;
+      font-size: 18px;
+      font-weight: 600;
+      color: $colorgray-600 !important;
+      &:hover {
+        color: $colorgray-900 !important;
+      }
+    }
+    span {
+      font-weight: 600;
+      padding: 0 10px;
+      color: $colorgray-400;
+    }
+  }
+}
+
+.accessoryLeft {
+  h6 {
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  &List {
+    border: 1px solid $colorgray-400;
+    width: 290px;
+    padding: 0 20px;
+    &Item {
+      border-bottom: 1px solid $colorgray-300;
+      display: flex !important;
+      padding: 10px 0 !important;
+      img {
+        height: 50px;
+      }
+      div {
+        margin-left: 20px;
+        p {
+          margin: 0;
+          margin-top: 5px;
+          color: $colorgray-600;
+          height: 26px;
+          overflow: hidden;
+          display: block;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+        }
+        span {
+          font-weight: 600;
+          color: black;
+        }
+      }
+    }
+  }
+  &List2 {
+    border: 1px solid $colorgray-400;
+    width: 290px;
+    .newpostListContent {
+      display: flex !important;
+      border-bottom: 1px solid $colorgray-400;
+      img {
+        width: 60px;
+        height: 60px;
+     
+      }
+      p {
+        color: $colorgray-700;
+        margin-top: 5px;
+        margin-left: 10px;
+        line-height: 18px;
+        font-size: 15px;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        &:hover {
+          color: $colorgray-900;
+        }
+      }
+    }
+  }
+}
+
+.accessoryRight {
+  &Select {
+    display: flex;
+    margin-left: 380px;
+    @include desktop2{
+    margin-left: 930px;
+    }
+    p {
+      font-size: 17px;
+      margin-right: 20px;
+      color: black;
+    }
+    &Button {
+      width: 280px !important;
+      height: 38px;
+      margin-top: -5px;
+      &:focus {
+        border: 1px solid $colorgray-400 !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+  &Layout {
+    margin-left: 5px;
+    margin-top: 50px;
+    display: flex;
+    // justify-content: start;
+    flex-wrap: wrap;
+    div {
+      &:hover {
+        box-shadow: 0 0 2px 2px $colorgray-400;
+      }
+      border: 1px solid $colorgray-400;
+      width: 200px;
+      @include desktop2{
+        width:260px;
+      }
+      margin-bottom: 25px;
+      text-align: center;
+      margin-left: 25px;
+      img {
+        width: 200px;
+        height: 190px;
+        @include desktop2{
+          width: 260px;
+          height: 260px;
+        }
+      }
+      p {
+        margin: 0;
+        padding:0 10px;
+        padding-bottom: 0;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+      }
+      strong {
+        font-size: 14px;
+      }
+      .Button {
+        width: 113px;
+        height: 30px;
+        align-items: center;
+        margin: 10px 40px;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 12px;
+        background-color: $colorbutton;
+        color: white;
+        font-weight: bold;
+        @include desktop2{
+          margin-left: 75px;
+        }
+      }
+    }
+  }
+}
+.pagination{
+  display:flex;
+margin:10px 400px;
+@include desktop2{
+  margin:10px 700px;
+}
+  p{
+    border:1px solid black;
+    width:25px;
+    text-align: center;
+    border-radius: 50%;
+    padding:0px;
+    margin-left: 7px;
+    cursor:pointer;
+    color:black;
+    &:hover{
+      background-color: $colorbutton;
+      border:1px solid $colorbutton;
+      color: white;
+    }
+  }
+  div{
+    cursor: pointer;
+    margin: -5px 0px;
+    font-size:20px;
+    font-weight: 700 !important;
+    &:hover{
+      color:$colorbutton;
+    }
+  }
+  div:last-child{
+    margin-left: 5px;
+  }
+}

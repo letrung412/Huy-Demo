@@ -1,0 +1,643 @@
+@import "../../../../global/variables/colors";
+@import "../../../../global/variables/mixins";
+
+.loginButton {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  margin-top: 25px;
+  font-weight: 700;
+  line-height: 25px;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+  }
+}
+.modal2{
+  margin-top: 50px;
+  width: 100%;
+  @include desktop2{
+    margin-top: 250px !important;
+    width:900px;
+  }
+  .login{
+    .success{
+      color:blue;
+    }
+    .danger{
+      color:red;
+    }
+    span{
+      color:red;
+      font-size: 13px;
+      display: block;
+    }
+    input{
+      @include Input;
+      width: 100%;
+      display: block;
+    }
+  }
+}
+.modal {
+  margin-top: 150px;
+  width: 600px;
+  @include desktop2{
+    width: 1000px;
+    margin-top: 350px;
+
+  }
+  &Content {
+    p {
+      color: $colordark;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 10px 0;
+    }
+
+    span {
+      font-size: 13px;
+      color: $colordanger;
+    }
+
+    input {
+      @include Input;
+      width: 100%;
+      padding: 5px;
+    }
+
+    &Err {
+      color: $colordanger !important;
+      font-size: 14px !important;
+    }
+  }
+  
+ 
+}
+
+.loginBtn {
+  color: $colorgray;
+  font-size: 13px;
+
+  &:hover {
+    color: $colordanger;
+  }
+}
+
+.account {
+  color: $colorgray-500 !important;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  &Dropdown {
+    a {
+      color: $colorgray-500 !important;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    div {
+      a {
+        color: $colorBlack !important;
+      }
+    }
+  }
+
+  &FaUserAlt {
+    margin-top: 7px;
+    margin-left: -10px;
+    font-size: 16px;
+  }
+}
+
+.dashboard {
+  @include desktop {
+    @include Relative;
+    margin: 30px 70px 0 86px;
+    font-size: 17px;
+  }
+  @include tablet {
+    @include Relative;
+    font-size: 17px;
+    margin: 30px 70px 0 86px;
+  }
+  @include mobile {
+    @include Relative2;
+    font-size: 16px;
+    margin: 20px;
+  }
+  .dashboard2 {
+    display: flex;
+    &Link {
+      padding: 0 5px !important;
+    }
+    strong {
+      margin: 0 5px;
+    }
+  }
+  p {
+    margin-top: 20px;
+  }
+  &Btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 30px;
+    &Btn1 {
+      background-color: #fff !important;
+      color: #334852 !important;
+      font-weight: 600 !important;
+      border: 1px solid $colorgray-400 !important;
+      width: 390px;
+      font-size: 18px !important;
+      padding: 15.5px 0 !important;
+      margin: 0 30px 30px 0;
+      &:hover {
+        background-color: #334852 !important;
+        color: $colorwhite !important;
+      }
+    }
+  }
+}
+
+.address {
+  @include desktop {
+    @include Relative;
+    margin: 30px 86px 0;
+    width: 600px;
+  }
+  @include tablet {
+    @include Relative;
+    margin: 30px 86px 0;
+    width: 600px;
+  }
+
+  @include mobile {
+    @include Relative2;
+    margin: 20px 20px;
+  }
+  &Title {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid $colorBlack;
+    padding-bottom: 20px;
+  }
+  &Content {
+    background-color: $colorsuccess;
+    color: $colorwhite;
+    padding: 15px;
+    @include desktop {
+      margin: 30px;
+    }
+    @include mobile {
+      margin: 10px 0px;
+    }
+    @include tablet {
+      margin: 20px 0px;
+    }
+    display: flex;
+    justify-content: space-between;
+    &Handle {
+      padding-top: 40px;
+      font-size: 20px;
+    }
+  }
+
+  &Body {
+    input {
+      padding: 4px 0 4px 7px;
+      margin-bottom: 15px;
+      @include Input;
+    }
+    span {
+      color: $colordanger;
+    }
+  }
+
+  &Body1 {
+    div {
+      input {
+        margin: 0 0 20px 0px;
+        @include Input;
+      }
+      strong {
+        margin: 0 20px 20px 0;
+      }
+    }
+    span {
+      color: $colordanger;
+    }
+  }
+}
+
+.accountInfor {
+  @include desktop {
+    @include Relative;
+    margin: 20px 250px;
+  }
+  @include tablet {
+    @include Relative;
+    margin: 20px;
+  }
+  @include mobile {
+    @include Relative2;
+    margin: 20px 20px;
+  }
+  &Name {
+    @include desktop {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    @include tablet {
+      display: flex;
+    }
+    @include mobile {
+    }
+    justify-content: space-between;
+    margin-bottom: 10px !important;
+  }
+  .Input {
+    @include desktop {
+      width: 400px;
+    }
+    @include tablet {
+      width: 350px;
+    }
+    @include mobile {
+      width: 100%;
+    }
+  }
+  input {
+    padding: 5px 10px;
+    @include Input;
+  }
+  p {
+    margin: 7px 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  div {
+    margin-bottom: 20px;
+    span {
+      color: $colordanger;
+      display: block;
+      font-size: 13px;
+    }
+  }
+  h5 {
+    margin-bottom: 10px;
+  }
+  span {
+    font-size: 15px;
+  }
+  .success {
+    color: green;
+  }
+  .err {
+    color: $colordanger;
+  }
+}
+
+.order {
+  @include mobile {
+    @include Relative2;
+  }
+  @include desktop {
+    // @include Relative;
+  }
+  @include tablet {
+    @include Relative;
+  }
+  &Table {
+    @include desktop {
+      margin-left: 50px;
+      width: 87% !important;
+    }
+    @include desktop2 {
+      margin-left: 225px;
+      width: 76% !important;
+    }
+    @include tablet {
+      margin-left: 16px;
+      width: 96% !important;
+    }
+    @include mobile {
+      margin-left: 5px;
+    }
+  }
+  &Button {
+    margin-left: 76px;
+    display: flex;
+    .buttonStore {
+      background-color: #c30005 !important;
+      font-weight: 700;
+      text-decoration: none;
+      color:white;
+      height: 40px;
+      margin-top: 5px;
+      padding: 10px;
+      border: none !important;
+    }
+    p {
+      font-size: 18px;
+      margin: 15px 0 0 20px;
+    }
+  }
+}
+
+.detailOrder {
+  @include desktop {
+    @include Relative;
+    margin: 20px 0 0 76px;
+  }
+  @include tablet {
+    @include Relative;
+    margin: 30px 20px 0 20px;
+  }
+  @include mobile {
+    @include Relative2;
+    margin: 0 10px;
+  }
+
+  &Title {
+    font-size: 17px;
+    span {
+      color: $colorindigo;
+    }
+  }
+  h4 {
+    margin-bottom: 20px;
+  }
+  div {
+    display: flex;
+    justify-content: space-between;
+    @include desktop {
+      margin-right: 186px;
+    }
+
+    border-bottom: 1px solid #eee;
+    margin-bottom: 6px;
+    p {
+      margin-bottom: 5px;
+      font-size: 13.5px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    span {
+      margin-bottom: 3px;
+      font-size: 15px;
+      color: $colorgray;
+    }
+    strong {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  }
+  section {
+    display: flex;
+    strong {
+      margin-right: 5px;
+    }
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cart {
+  margin-top: 40px;
+  color: $colorgray-500;
+  display: flex;
+  &Price {
+    cursor: pointer;
+    display: flex;
+    p {
+      font-size: 12px;
+      font-weight: 700;
+      padding-left: 20px;
+    }
+    span {
+      font-size: 15px;
+      margin-top: -2px;
+      padding-right: 4px;
+    }
+    .cgFormatSlash {
+      font-size: 20px;
+    }
+    .bsCartPlus {
+      font-size: 25px;
+      margin-top: -5px;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+    &:hover .hoverCart {
+      display: block;
+    }
+  }
+
+  .hoverCart {
+    position: absolute;
+    top: 70px;
+    border-radius: 5px;
+    right: 67px;
+    z-index: 2;
+    min-height: 100px;
+    width: 280px;
+    background-color: white;
+    border: 1px solid $colorgray-600;
+    transition: all ease-in 0.01;
+    display: none;
+    p {
+      color: $colorgray-700;
+      padding: 20px 10px 0 10px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .Scroll {
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    &Product {
+      text-decoration: none;
+      // position: relative;
+      display: flex;
+      border-bottom: 1px solid $colorgray-500;
+      padding-bottom: 10px;
+      img {
+        margin: 10px 5px 10px 10px;
+        width: 76px;
+        height: 57px;
+      }
+      &Div {
+        height: 40px;
+        width: 220px;
+        padding: 20px 0;
+        span {
+          color: $colorgray-600;
+          font-size: 12px;
+          padding-left: 23px;
+        }
+        p {
+          margin-bottom: 0;
+          padding: 0;
+          font-size: 13px;
+          height: 18px;
+          overflow: hidden;
+          display: block;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+        }
+      }
+      &Div2 {
+        border: 1px solid $colorgray-400;
+        color: $colorgray-400;
+        width: 30px;
+        height: 30px;
+        // position: absolute;
+        padding: 0 10px;
+        border-radius: 50%;
+        text-align: center;
+        margin-top:30px;
+        margin-right: 10px;
+        // margin-top: 20px;
+        // margin-right: 0;
+        &:hover {
+          border-color: black !important;
+          color: black;
+        }
+      }
+    }
+    &Button {
+      margin: 10px 30px;
+      text-align: center;
+      color: $colorgray-300;
+      background-color: $colorbutton;
+      &:hover {
+        background-color: $colordanger;
+        color: $colorgray-300;
+      }
+    }
+  }
+
+  .hoverCart::before {
+    content: "";
+    display: block;
+    top: -30px;
+    right: 0px;
+    position: absolute;
+    border-color: transparent transparent white transparent;
+    border-width: 20px;
+    border-style: solid;
+  }
+  .hoverCart::after {
+    content: "";
+    position: absolute;
+    top: -13px;
+    right: 30px;
+    z-index: 3;
+    display: block;
+    width: 120px;
+    height: 14px;
+    background-color: transparent;
+  }
+
+  .Search {
+    margin-top: -3px;
+    position: relative;
+    .cartSearch {
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    &:hover .hoverSearch {
+      display: block;
+    }
+    .hoverSearch {
+      position: absolute;
+      z-index: 2;
+      top: 40px;
+      left: -80px;
+      width: 250px;
+      height: 100px;
+      background-color: $colorgray-100;
+      border: 1px solid $colorgray-400;
+      display: none;
+      &::before {
+        content: "";
+        display: block;
+        top: -30px;
+        right: 138px;
+        position: absolute;
+        border-color: transparent transparent $colorgray-100 transparent;
+        border-width: 20px;
+        border-style: solid;
+      }
+      &::after {
+        position: absolute;
+        top: -13px;
+        content: "";
+        display: block;
+        width: 120px;
+        height: 15px;
+        background-color: transparent;
+      }
+      input {
+        margin: 30px 0 0 10px;
+        padding: 5px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid $colorgray-300;
+      }
+      &Link {
+        border: 1px solid #c30005;
+        font-size: 22px;
+        color: $colorwhite;
+        background-color: $colordanger;
+        padding: 0 10px 3px 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.singupmobile {
+  @include Relative2;
+  margin: 20px;
+  display: block;
+  h5 {
+    font-weight: 700;
+  }
+  strong {
+    font-size: 14px;
+  }
+  input {
+    margin: 10px 0;
+    width: 100%;
+    @include Input;
+  }
+  .Button {
+    margin: 10px 0 30px 0;
+    strong {
+      margin-left: 20px;
+      color: $colorgray-600;
+    }
+  }
+  span {
+    color: $colordanger;
+    display: block;
+    font-size: 14px;
+  }
+}

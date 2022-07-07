@@ -1,0 +1,760 @@
+@import "../../../../global/variables/colors";
+@import "../../../../global/variables/mixins";
+
+.home {
+  @include Relative;
+  margin-top: 20px;
+  @include mobile {
+    @include Relative2;
+    margin-top: 10px;
+  }
+}
+
+.carousel {
+  @include desktop {
+    margin: 30px 76px;
+  }
+  @include desktop2 {
+    margin:30px 160px;
+  }
+
+  @include tablet {
+    margin: 30px 20px;
+  }
+
+  @include mobile {
+    display: none;
+  }
+
+  img {
+    @include desktop {
+      width: 1200px;
+      height: 500px;
+      background-image: cover;
+      background-position: center;
+    }
+    @include desktop2 {
+      width: 1700px;
+      height: 800px;
+      background-image: cover;
+      background-position: center;
+    }
+
+    @include tablet {
+      width: 100%;
+      height: 400px;
+    }
+  }
+
+  a {
+    display: none;
+  }
+}
+.container {
+  @include desktop {
+    margin: 60px 0 100px 115px !important;
+  }
+  @include desktop2 {
+    margin:30px auto !important;
+  }
+
+  @include mobile {
+    margin-left: -10px !important;
+  }
+
+  .row {
+    margin-right: -66px !important;
+    .col {
+      position: relative;
+      padding: 0;
+      margin: 6px;
+      border: 1px solid transparent;
+
+      &:hover {
+        @include desktop {
+          border: 1px solid $colorgray-500;
+        }
+      }
+
+      &:hover .overlay {
+        @include desktop {
+          display: block;
+        }
+      }
+      .img1 {
+        width: 260px;
+        padding: 40px 0 80px 115px;
+      }
+      .img2 {
+        width: 300px;
+        margin: 0 0 20px 30px;
+        @include desktop2{
+          width:400px;
+          margin:0 0 0 10px;
+        }
+      }
+
+      .overlay {
+        display: none;
+        position: absolute;
+        top: 45%;
+        left: 34%;
+        transition: all 0.5s ease-in-out;
+      }
+    }
+  }
+}
+// ////////////////////////////////////TABS/////////////////////////////////
+.BasicTabs {
+  .tabPanel {
+    div {
+      @include mobile {
+        padding: 0;
+      }
+    }
+  }
+
+  .box {
+    padding-left: 16%;
+    @include desktop {
+      margin: 0 76px !important;
+    }
+    @include desktop2 {
+      margin: 0 250px !important;
+    }
+
+    @include tablet {
+      margin: 0 26px !important;
+      padding-left: 17%;
+    }
+
+    @include mobile {
+      border-bottom: 1px solid $colorgray-600;
+      padding-left: 10%;
+    }
+
+    .tab {
+      font-weight: 700;
+      @include desktop {
+        padding: 7px 50px;
+        font-size: 15px;
+      }
+    
+      @include mobile {
+        font-size: 12px;
+      }
+    }
+
+    .tab2 {
+      font-weight: 700;
+      @include desktop {
+        padding: 7px 50px !important;
+        font-size: 15px;
+      }
+
+      @include mobile {
+        display: none;
+      }
+    }
+  }
+}
+
+.slide1 {
+  @include mobile {
+    display: none;
+  }
+  &Image{
+  display: flex;
+  justify-content: space-between;
+  margin:0 10px;
+  }
+}
+
+.slide2 {
+  @include desktop {
+    display: none;
+  }
+
+  @include tablet {
+    display: none;
+  }
+}
+
+.slideimage {
+  @include desktop {
+    margin-right: 40px;
+  }
+
+  @include mobile {
+    margin-left: 20px;
+  }
+
+  text-align: center;
+
+  &:hover &Hover {
+    background-color: red !important;
+    font-size: 12px !important;
+    font-weight: 500;
+    border: 1px solid transparent;
+  }
+
+  img {
+    @include desktop {
+      width: 238px;
+      height: 238px;
+    }
+    @include desktop2 {
+      width: 338px;
+      height: 338px;
+    }
+
+    @include tablet {
+      width: 158px;
+      height: 101px;
+    }
+
+    @include mobile {
+      width: 158px;
+      height: 101px;
+    }
+  }
+
+  p {
+    font-size: 15px;
+    margin: 10px 0 7px 0;
+    color: $colorgray-600;
+  }
+
+  span {
+    font-weight: 700;
+    color: $colordanger;
+    font-size: 14px;
+  }
+
+  &Hover {
+    margin-top: 10px;
+    background-color: white !important;
+    border: 1px solid transparent !important;
+    font-size: 12px !important;
+  }
+}
+// /////////////////////////////////////////ADD CART////////////////////////////////////////////////////
+.addcart {
+  @include Relative;
+  @include desktop2{
+    margin: 50px 160px;
+  }
+  &Content {
+    margin: 50px 20px;
+    margin-right: 55px;
+    &Title {
+      display: flex;
+      .nav {
+        color: $colorgray-600;
+
+        &:hover {
+          color: $colorBlack;
+        }
+      }
+      span {
+        padding-top: 7px;
+      }
+    }
+
+    h3 {
+      margin-left: 15px;
+    }
+
+    strong {
+      margin-left: 17px;
+      font-size: 20px;
+    }
+    &Price {
+      margin: 20px 17px;
+      display: flex;
+      .sizeSelect{
+        display:flex;
+        margin-left: 10px;
+        .select{
+          width:200px;
+          height: 30px;
+        }
+      }
+      div {
+        p {
+          border: 1px solid #ccc;
+          padding: 5px 8px;
+          background-color: $colorgray-300;
+          cursor: pointer;
+          &:hover {
+            background-color: $colorgray-600;
+          }
+        }
+        p:nth-child(2) {
+          padding: 5px 12px;
+          border: 1px solid #ccc;
+          background-color: $colorgray-100;
+          cursor: default;
+        }
+      }
+    }
+    .Button {
+      margin-left: 20px;
+      height: 36px !important;
+      background-color: $colorbutton;
+      color: $colorgray-300;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        color: white;
+      }
+    }
+    .delivery {
+      width: 283px;
+      span {
+        font-size: 16px;
+        font-weight: 700;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        display: block;
+      }
+      img {
+        width: 92px;
+        height: 46px;
+      }
+    }
+    .bank {
+      width: 283px;
+      span {
+        font-size: 16px;
+        font-weight: 700;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        display: block;
+      }
+      img {
+        width: 92px;
+        height: 46px;
+      }
+    }
+    .p {
+      padding: 20px 80px 0 20px;
+      font-weight: 700;
+      font-size: 15px;
+    }
+  }
+}
+
+.indicator {
+  cursor: pointer;
+  border: 1px $colorgray-500 solid;
+  img {
+    width: 130px;
+    height: 97px;
+  }
+
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.slideshow {
+  margin: 50px 0 76px;
+  width: 600px;
+  &Image {
+    width: 385px;
+    height: 374px;
+    margin-left: 80px;
+  }
+
+  ul {
+    margin-left: -45px !important;
+  }
+}
+
+.box2 {
+  margin: 40px 76px;
+  width: 89% !important;
+  border: 1px solid $colorgray-300;
+  .tab2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: $colorgray-800;
+  }
+}
+.tabPanel2 {
+  div {
+    padding: 10px 20px;
+    border-bottom: 1px solid $colorgray-400;
+    strong {
+      font-size: 15px;
+    }
+    span {
+      padding-left: 500px;
+    }
+  }
+}
+
+.tabPanel3 {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  strong {
+    font-size: 14px;
+  }
+  .comments {
+    margin-top: 10px;
+    .evaluate {
+      display: flex;
+      padding-top: 10px;
+      border-bottom: 1px solid $colorgray-500;
+      img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+      }
+      div {
+        p {
+          max-width: 600px;
+          padding: 10px 0;
+          margin: 0;
+        }
+        margin-left: 20px;
+      }
+    }
+  }
+  .Input {
+    margin-bottom: 20px;
+    div {
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      input {
+        padding: 5px;
+        width: 500px;
+        margin: 0 10px;
+        @include Input;
+      }
+    }
+  }
+}
+// ////////////////////////////SLIDE 5 IMAGE///////////////////////
+.slideimage1 {
+  padding: 0 10px 20px 10px;
+  border: 1px solid $colorgray-500;
+  @include desktop {
+    margin-right: 30px;
+  }
+  @include desktop2 {
+    margin-left: 14px;
+  }
+
+  @include mobile {
+    margin-left: 20px;
+  }
+
+  text-align: center;
+
+  &:hover &Hover {
+    background-color: red !important;
+    font-size: 12px !important;
+    font-weight: 500;
+    border: 1px solid transparent;
+  }
+
+  img {
+    padding-top: 10px;
+    @include desktop {
+      width: 195px;
+      height: 175px;
+    }
+    @include desktop2 {
+      width: 225px;
+      height: 225px;
+    }
+
+    @include tablet {
+      width: 158px;
+      height: 101px;
+    }
+
+    @include mobile {
+      width: 158px;
+      height: 101px;
+    }
+  }
+
+  p {
+    font-size: 15px;
+    margin: 10px 0 7px 0;
+    color: $colorgray-600;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  span {
+    font-weight: 700;
+    color: $colordanger;
+    font-size: 14px;
+  }
+
+  &Hover {
+    margin-top: 10px;
+    background-color: white !important;
+    border: 1px solid transparent !important;
+    font-size: 12px !important;
+  }
+}
+
+.slide5Image {
+  padding-bottom: 50px;
+  h4 {
+    margin: 30px 72px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  @include Relative;
+  width: 100%;
+  height: 506px;
+  background-color: black;
+  &Container {
+    padding: 75px 75px 0 75px;
+    h5 {
+      color: $colorgray-200;
+    }
+    &Content {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid red;
+      div {
+        width: 280px;
+        p {
+          font-size: 15px;
+          color: $colorgray-500;
+        }
+        div {
+          display: flex;
+          p {
+            padding-left: 10px;
+          }
+          .icon {
+            font-size: 20px;
+            color: $colorgray-500;
+          }
+        }
+        a {
+          padding: 0 0 15px 0;
+          width: 200px;
+          color: $colorgray-500;
+          text-decoration: none;
+          &:hover {
+            color: red;
+          }
+        }
+        .linkFacebook {
+          background-color: $colorfacebook;
+          a {
+            padding: 2px 7px;
+          }
+        }
+        .linkInstagram {
+          background-color: $colorinstagram;
+          a {
+            padding: 3px 6px;
+          }
+        }
+        .linkTwitter {
+          background-color: $colortwitter;
+          a {
+            padding: 3px 9px;
+          }
+        }
+        .linkPinterest {
+          background-color: $colorpinterest;
+          a {
+            padding: 2px 7.5px;
+          }
+        }
+        .linkFeed {
+          background-color: $colortooltip;
+          a {
+            padding: 2px 6px;
+          }
+        }
+        .link {
+          height: 35px;
+          width: 35px;
+          border-radius: 50%;
+          margin-right: 15px;
+          a {
+            color: $colorwhite;
+            font-size: 18px;
+          }
+        }
+        .inline {
+          width: 50px;
+          height: 3px;
+          background-color: red;
+          margin: 20px 0;
+        }
+        .iconFacebook {
+          padding: 17.5px;
+          background-color: blue;
+          color: white !important;
+        }
+      }
+    }
+
+    &Content2 {
+      display: flex;
+      margin-bottom: 50px;
+      input {
+        margin-left: 50px;
+        width: 300px;
+        padding: 5px 10px;
+        outline: none;
+      }
+    }
+    .nameDesign {
+      text-align: center;
+      color: $colorgray-700;
+      font-size: 18px;
+    }
+  }
+}
+
+.accessoryHome {
+  margin: 90px 0px 90px 75px;
+  h5 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid $colorBlack;
+  }
+  &Content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    div {
+      position: relative;
+      margin-right: 12.7px;
+      img{
+        margin-bottom: 10px;
+        margin-left: 25px;
+        @include desktop2{
+          width:320px;
+          height: 320px;
+        }
+      }
+      p {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+      strong {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+        color: red;
+      }
+
+      .button {
+        margin: 0 88px 30px 88px;
+        border: none;
+        font-size: 13px;
+        font-weight: 700;
+        background-color: transparent;
+        color: transparent;
+        padding: 4px 7px;
+        @include desktop2{
+          padding:10px 30px;
+        }
+      }
+      &:hover .button {
+        color: $colorgray-300;
+        background-color: $colorbutton;
+      }
+    }
+    .sale {
+      position: absolute;
+      top: 10px;
+      p {
+        color: $colorgray-400;
+        font-weight: 700;
+        font-size: 16px;
+        background-color: $colorbutton;
+        padding: 10px 4.5px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .viewAll {
+    text-align: center;
+    border: 2px solid $colorgray-600;
+    width: 120px;
+    justify-content: center;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    color: $colorgray-500;
+    font-size: 14px;
+    font-weight: 700;
+    &:hover {
+      background-color: $colorbutton;
+      border: 2px solid transparent;
+      color: $colorgray-200;
+    }
+  }
+  .banner {
+    position: relative;
+    img {
+      width: 1200px;
+      height: 500px;
+      @include desktop2{
+        width:1770px;
+        height: 800px;
+      }
+    }
+    div {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h5 {
+        margin: 10px 0;
+        padding: 0;
+        border: none;
+        color: $colorgray-300;
+      }
+      h1 {
+        color: white;
+        font-weight: bold;
+        span {
+          color: $colorwarning;
+        }
+      }
+      .bannerAll {
+        border: 2px solid $colorwhite;
+        color: $colorwhite;
+        font-weight: 700;
+        width: 150px;
+        text-align: center;
+        margin: 50px 190px;
+        &:hover {
+          background-color: black;
+          border-color: black;
+        }
+      }
+    }
+  }
+}

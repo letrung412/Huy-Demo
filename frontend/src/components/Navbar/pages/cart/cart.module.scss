@@ -1,0 +1,188 @@
+@import "../../../../global/variables/colors";
+@import "../../../../global/variables/mixins";
+
+.viewcart {
+  @include Relative;
+  margin: 30px 75px 30px 80px;
+  display: flex;
+  &Table {
+    width: 100%;
+    padding: 20px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      border-bottom: 2px solid $colorgray-700;
+      &Name {
+        padding-right: 100px;
+      }
+      &Button{
+        padding-right: 40px;
+      }
+      strong {
+        font-size: 14px;
+      }
+    }
+}
+.content{
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid #888;
+ &Image{
+   margin: 3px;
+   display: flex;
+   width: 280px;
+   @include desktop2{
+     width: 410px;
+   }
+  img{
+    width:100px;
+    height:100px;
+  }
+  &Info{
+    margin: 15px 10px;
+    p{
+      margin:0
+    }
+  }
+ }
+ &Price{
+   width:180px;
+   margin-right: 50px;
+   justify-content: space-around;
+   margin-top:40px;
+   display: flex;
+   
+   .price1{
+     text-decoration:line-through;
+     color: #888;
+   }
+   
+ }
+ &Amount{
+   display: flex;
+   margin: 35px 0 0 40px;
+   width:220px;
+   @include desktop2{
+    margin-left: 180px;
+  }
+   p {
+    border: 1px solid #ccc;
+    padding: 5px 8px;
+    height: 40px;
+    background-color: $colorgray-300;
+    cursor: pointer;
+    &:hover {
+      background-color: $colorgray-600;
+    }
+  }
+  p:nth-child(2) {
+    padding: 5px 12px;
+    border: 1px solid #ccc;
+    background-color: $colorgray-100;
+    cursor: default;
+  }
+ }
+ .price{
+   color: red;
+   margin-top: 40px;
+  @include desktop2{
+    margin:40px 100px 0 160px;
+  }
+ }
+&Button{
+  margin: 35px 0 0 80px;
+  display: flex;
+  button{
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    background-color: #C30005;
+    color:white;
+    &:hover{
+      color: #ccc;
+    }
+
+  }
+  .button102{
+    background-color: rgb(0, 30, 60);
+    text-decoration: none;
+    height:40px;
+    padding: 0 5px;
+    color:white;
+    padding-top: 7px;
+  }
+}
+}
+}
+.payment {
+  @include Relative;
+  margin: 30px 75px;
+  display: flex;
+  @include desktop2{
+    margin-left: 310px;
+  }
+  .informationCart {
+    width: 50%;
+    .title {
+      border-bottom: 2px solid $colorgray-500;
+      font-size: 14px;
+      color: $colorgray-700;
+      padding-bottom: 5px;
+    }
+    div {
+      margin: 10px 0;
+      margin-right: 20px;
+      justify-content: space-between;
+      display: flex;
+      border-bottom: 1px solid $colorgray-500;
+      p:last-child {
+        color: $colorgray-900;
+        font-weight: 600;
+      }
+      strong {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      span {
+        font-size: 13px;
+        padding-bottom: 5px;
+      }
+    }
+    .Button {
+      width: 100px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      padding: 5px 10px;
+      color: #fff;
+      text-decoration: none;
+      background-color: $colorbutton;
+      &:hover {
+        color: $colorgray-500;
+      }
+    }
+  }
+  .information {
+    width: 400px;
+    padding: 0 20px;
+    height: 300px;
+    border: 2px solid $colorbutton;
+    input{
+      width:100%;
+    }
+   strong{
+     display: block;
+     font-size: 16px;
+     margin-bottom: 0;
+     margin-top: 10px;
+   }
+   span{
+     display: block;
+     font-size: 13px;
+     color:red;
+   }
+  
+  }
+}
